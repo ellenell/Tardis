@@ -1,5 +1,7 @@
 import './App.css'
 import DivOne from "./components/DivOne"
+import DivTwo from "./components/DivTwo"
+
 
 
 // Import the useState hook
@@ -34,7 +36,7 @@ function App(props){
 
   // The return value which is the JSX/HTML the component renders
   // we now pass the function and the name property as props to DivOne
-  return <div><DivOne updateCapitalization={updateCapitalization} name={state.name}/></div>
+  return <div><DivTwo updateCapitalization={updateCapitalization} name={state.name}/></div>
 
 }
 
